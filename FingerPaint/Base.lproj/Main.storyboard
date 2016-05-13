@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nAJ-cT-Uj1" customClass="PaintView">
+                                <rect key="frame" x="30" y="30" width="540" height="500"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Hr1-tc-DVl" appends="YES" id="Qqn-QC-hng"/>
+                                </connections>
+                            </view>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="FM2-E4-cAF">
+                                <rect key="frame" x="30" y="540" width="540" height="29"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="I1H-gk-M4U"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="RED"/>
+                                    <segment title="ORANGE"/>
+                                    <segment title="YELLOW"/>
+                                    <segment title="GREEN"/>
+                                    <segment title="BLUE"/>
+                                    <segment title="PURPLE"/>
+                                </segments>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="colourChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="hWd-LS-SFo"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FM2-E4-cAF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="FD0-kz-m9d"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FM2-E4-cAF" secondAttribute="trailing" constant="10" id="OBM-1Z-H4s"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="nAJ-cT-Uj1" secondAttribute="bottom" constant="70" id="XYv-AQ-NSb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nAJ-cT-Uj1" secondAttribute="trailing" constant="10" id="XvP-Dm-Yb9"/>
+                            <constraint firstItem="nAJ-cT-Uj1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="awC-fG-TIp"/>
+                            <constraint firstItem="nAJ-cT-Uj1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="hnI-jO-0Pv"/>
+                            <constraint firstItem="FM2-E4-cAF" firstAttribute="top" secondItem="nAJ-cT-Uj1" secondAttribute="bottom" constant="10" id="s19-0Z-jUD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="colourSelector" destination="FM2-E4-cAF" id="Tqd-Iu-Fk5"/>
+                        <outlet property="painterView" destination="nAJ-cT-Uj1" id="hJz-Rs-x4X"/>
+                        <outlet property="panGest" destination="Hr1-tc-DVl" id="2nF-ch-3dg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Hr1-tc-DVl">
+                    <connections>
+                        <action selector="touchedPainter:" destination="BYZ-38-t0r" id="j3Y-I4-Mni"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+</document>

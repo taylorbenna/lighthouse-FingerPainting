@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34482D601CE65789000444BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34482D5F1CE65789000444BB /* main.m */; };
+		34482D631CE65789000444BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34482D621CE65789000444BB /* AppDelegate.m */; };
+		34482D661CE65789000444BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34482D651CE65789000444BB /* ViewController.m */; };
+		34482D691CE65789000444BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34482D671CE65789000444BB /* Main.storyboard */; };
+		34482D6B1CE65789000444BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34482D6A1CE65789000444BB /* Assets.xcassets */; };
+		34482D6E1CE65789000444BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34482D6C1CE65789000444BB /* LaunchScreen.storyboard */; };
+		34482D771CE657BC000444BB /* PaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34482D761CE657BC000444BB /* PaintView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34482D5B1CE65789000444BB /* FingerPaint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerPaint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34482D5F1CE65789000444BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34482D611CE65789000444BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34482D621CE65789000444BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34482D641CE65789000444BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34482D651CE65789000444BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34482D681CE65789000444BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34482D6A1CE65789000444BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34482D6D1CE65789000444BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34482D6F1CE65789000444BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34482D751CE657BC000444BB /* PaintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintView.h; sourceTree = "<group>"; };
+		34482D761CE657BC000444BB /* PaintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34482D581CE65789000444BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34482D521CE65789000444BB = {
+			isa = PBXGroup;
+			children = (
+				34482D5D1CE65789000444BB /* FingerPaint */,
+				34482D5C1CE65789000444BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34482D5C1CE65789000444BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34482D5B1CE65789000444BB /* FingerPaint.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34482D5D1CE65789000444BB /* FingerPaint */ = {
+			isa = PBXGroup;
+			children = (
+				34482D611CE65789000444BB /* AppDelegate.h */,
+				34482D621CE65789000444BB /* AppDelegate.m */,
+				34482D641CE65789000444BB /* ViewController.h */,
+				34482D651CE65789000444BB /* ViewController.m */,
+				34482D671CE65789000444BB /* Main.storyboard */,
+				34482D751CE657BC000444BB /* PaintView.h */,
+				34482D761CE657BC000444BB /* PaintView.m */,
+				34482D6A1CE65789000444BB /* Assets.xcassets */,
+				34482D6C1CE65789000444BB /* LaunchScreen.storyboard */,
+				34482D6F1CE65789000444BB /* Info.plist */,
+				34482D5E1CE65789000444BB /* Supporting Files */,
+			);
+			path = FingerPaint;
+			sourceTree = "<group>";
+		};
+		34482D5E1CE65789000444BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34482D5F1CE65789000444BB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34482D5A1CE65789000444BB /* FingerPaint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34482D721CE65789000444BB /* Build configuration list for PBXNativeTarget "FingerPaint" */;
+			buildPhases = (
+				34482D571CE65789000444BB /* Sources */,
+				34482D581CE65789000444BB /* Frameworks */,
+				34482D591CE65789000444BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FingerPaint;
+			productName = FingerPaint;
+			productReference = 34482D5B1CE65789000444BB /* FingerPaint.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34482D531CE65789000444BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Taylor Benna";
+				TargetAttributes = {
+					34482D5A1CE65789000444BB = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = F9TL8X93F7;
+					};
+				};
+			};
+			buildConfigurationList = 34482D561CE65789000444BB /* Build configuration list for PBXProject "FingerPaint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34482D521CE65789000444BB;
+			productRefGroup = 34482D5C1CE65789000444BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34482D5A1CE65789000444BB /* FingerPaint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34482D591CE65789000444BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34482D6E1CE65789000444BB /* LaunchScreen.storyboard in Resources */,
+				34482D6B1CE65789000444BB /* Assets.xcassets in Resources */,
+				34482D691CE65789000444BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34482D571CE65789000444BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34482D661CE65789000444BB /* ViewController.m in Sources */,
+				34482D771CE657BC000444BB /* PaintView.m in Sources */,
+				34482D631CE65789000444BB /* AppDelegate.m in Sources */,
+				34482D601CE65789000444BB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		34482D671CE65789000444BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34482D681CE65789000444BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34482D6C1CE65789000444BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34482D6D1CE65789000444BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34482D701CE65789000444BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34482D711CE65789000444BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34482D731CE65789000444BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FingerPaint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Taylor.FingerPaint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		34482D741CE65789000444BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FingerPaint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Taylor.FingerPaint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34482D561CE65789000444BB /* Build configuration list for PBXProject "FingerPaint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34482D701CE65789000444BB /* Debug */,
+				34482D711CE65789000444BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34482D721CE65789000444BB /* Build configuration list for PBXNativeTarget "FingerPaint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34482D731CE65789000444BB /* Debug */,
+				34482D741CE65789000444BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34482D531CE65789000444BB /* Project object */;
+}
